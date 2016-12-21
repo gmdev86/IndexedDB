@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Example for IndexedDB</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Custom CSS & JS -->
+        <link href="css/style.css" rel="stylesheet">
+        <script type="text/javascript" src="js/db.js"></script>        
+        
+        <!-- Latest compiled and minified CSS & JS -->
+        <link rel="stylesheet" media="screen" href="//netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <script src="//code.jquery.com/jquery.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <div class="container" id="conCreateDB">
+            <div class="panel panel-primary">
+                <form id="frmCreateDB">
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <label for="txtDatabaseName">Database Name</label>
+                            <input type="text" class="form-control" id="txtDatabaseName" placeholder="Name">
+                        </div>
+                        <div id="CreateDBResult"></div>
+                    </div>
+                    <div class="panel-footer">
+                        <button type="submit" class="btn btn-primary" id="btnCreateDB">Create Database</button>
+                    </div>                        
+                </form>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="js/main.js?version=1.000"></script>
+    </body>
+</html>
